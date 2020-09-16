@@ -1,0 +1,149 @@
+/* colors and fonts */ 
+
+body{
+	background-color: #e7dec8;
+	color: #382933;
+	font-size: 17px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: lighter; 
+}
+
+h1{ 
+	color: #523906;
+ 	font-size: 45px;
+ 	font-family: 'Indie Flower', cursive;
+ }
+
+h2{ 
+	 color: rgb(240, 130, 0) ;
+	 font-size: 20px;
+	 font-weight: bold;
+	 text-decoration: underline;
+ }
+h3{
+	color: #523906;
+	font-family: 'Indie Flower', cursive;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+a{ text-decoration: none; 
+	color: #523906;
+	font-weight: bold;
+}	 
+a:hover {
+	color: rgb(240, 130, 0);	
+}
+
+/* DIV and style */ 
+
+.container {
+    width: 700px;
+    margin: 10px auto;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+p {
+	text-align: justify;
+	text-justify: inter-word; 
+}
+
+.card-shadow {
+	background-color: #f3ede1;
+    padding: 20px 30px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 10px 35px #a7a5a1b0;	
+    text-align: center;
+}
+
+.img-circle{
+	border-radius: 10%;
+	width: 570px;
+	height: 390px;
+}
+
+.btn-white {
+    background-color:#b8b2a2;
+    color:#f3ede1;
+    border-radius:5px;
+ 	box-shadow: 0 10px 35px #a7a5a1b0;
+ 	padding: 5px;
+}
+
+.btn-white:hover{
+	background-color: #523906;
+	color: #f3ede1;
+}
+
+.list-inline{ 
+	list-style: none;
+	padding-left: 0px;
+	}
+
+.list-inline li {
+	display: inline;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #b8b2a2;
+	padding-right:15px;
+}
+
+.list-inline i:hover {
+	color: #523906;
+}
+
+/*Design adjustments using id */
+
+#introduction p {
+	margin-bottom: 30px;
+
+}
+
+/* devices */
+
+
+@media  (max-width: 960px) {
+	.container {
+		width: 700px
+	}
+}
+
+@media  (max-width: 720px) {
+	.container {
+		width: 500px
+	}
+	.img-circle {
+		width: 370px;
+		height: 250px;;
+	}
+}
+
+@media  (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+	.img-circle{
+		width: 230px;
+		height: 150px;
+	}
+	.btn-white {
+    border-radius: 5px;
+ 	box-shadow: 0 10px 35px #a7a5a1b0;
+ 	padding: 3px;
+ 	background-color: #f3ede1;
+ 	text-align: center;
+ 	font-size: 11px;
+ 	 }
+
+ 	
+ 
+ 	 
+ 	
+
